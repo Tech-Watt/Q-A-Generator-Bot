@@ -109,8 +109,8 @@ def generate_csv(quiz_data):
     return output.getvalue()
 
 # --- Streamlit UI Setup ---
-st.set_page_config(page_title="Jesi AI Quiz Generator", page_icon="🧠")
-st.title("🧠 Jesi AI Quiz Generator")
+st.set_page_config(page_title="TechWatt AI Quiz Generator", page_icon="🧠")
+st.title("🧠 TechWatt AI Quiz Generator")
 
 # --- Session State Init ---
 if "quiz_data" not in st.session_state:
