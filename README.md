@@ -38,8 +38,8 @@ TechWatt AI Quiz Generator is a Streamlit-based web app that uses OpenAI’s GPT
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/jesi-ai-quiz-generator.git
-cd jesi-ai-quiz-generator
+git clone https://github.com/Tech-Watt/Q-A-Generator-Bot.git
+cd Q-A-Generator-Bot
 ```
 
 ### 2. Create and Activate a Virtual Environment
