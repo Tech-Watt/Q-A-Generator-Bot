@@ -12,7 +12,8 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 # --- Load API Key ---
 load_dotenv()
-openai_api_key = os.getenv("openai_model")
+# openai_api_key = os.getenv("openai_model")
+openai_api_key = st.secrets["openai_model"]
 if not openai_api_key:
     raise EnvironmentError("OPENAI_API_KEY not found. Please set it in your .env file.")
 
